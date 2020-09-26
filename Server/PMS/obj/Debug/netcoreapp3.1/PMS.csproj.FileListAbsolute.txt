@@ -1,0 +1,9 @@
+D:\Study\PMS\PMS\Server\PMS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Study\PMS\PMS\Server\PMS\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Study\PMS\PMS\Server\PMS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Study\PMS\PMS\Server\PMS\obj\Debug\netcoreapp3.1\PMS.csprojAssemblyReference.cache
+D:\Study\PMS\PMS\Server\PMS\obj\Debug\netcoreapp3.1\PMS.AssemblyInfoInputs.cache
+D:\Study\PMS\PMS\Server\PMS\obj\Debug\netcoreapp3.1\PMS.AssemblyInfo.cs
+D:\Study\PMS\PMS\Server\PMS\obj\Debug\netcoreapp3.1\PMS.RazorTargetAssemblyInfo.cache
+D:\Study\PMS\PMS\Server\PMS\obj\Debug\netcoreapp3.1\staticwebassets\PMS.StaticWebAssets.Manifest.cache
+D:\Study\PMS\PMS\Server\PMS\obj\Debug\netcoreapp3.1\staticwebassets\PMS.StaticWebAssets.xml

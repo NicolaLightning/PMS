@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y50d4OSQP33GrbGWyN6TlnFT0PeCzNnHo8tWNmLgSEGNsR9Q/xn+rhtSP+8Rb9hfPJDgGeTCscPXmR0VLzp7BQ==",
+  "success": true,
+  "projectFilePath": "D:\\Study\\PMS\\PMS\\Server\\PMS\\PMS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\10553\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
