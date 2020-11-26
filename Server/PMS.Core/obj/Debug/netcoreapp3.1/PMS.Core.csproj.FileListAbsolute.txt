@@ -1,0 +1,5 @@
+D:\Study\PMS\PMS\Server\PMS.Core\bin\Debug\netcoreapp3.1\PMS.Core.deps.json
+D:\Study\PMS\PMS\Server\PMS.Core\bin\Debug\netcoreapp3.1\PMS.Core.dll
+D:\Study\PMS\PMS\Server\PMS.Core\obj\Debug\netcoreapp3.1\PMS.Core.csprojAssemblyReference.cache
+D:\Study\PMS\PMS\Server\PMS.Core\obj\Debug\netcoreapp3.1\PMS.Core.AssemblyInfoInputs.cache
+D:\Study\PMS\PMS\Server\PMS.Core\obj\Debug\netcoreapp3.1\PMS.Core.AssemblyInfo.cs
