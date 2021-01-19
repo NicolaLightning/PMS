@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Study\PMS\PMS\Server\src\PMS.Application\PMS.Application.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore.SignalR" Version="5.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PMS.Core\PMS.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="HospitalManageService\" />
+  </ItemGroup>
+
+</Project>

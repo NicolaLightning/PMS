@@ -1,0 +1,820 @@
+DEBUG 2020-12-12 08:52:20,376 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-12 08:52:20,680 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2020-12-12 08:52:20,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:52:20,692 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2020-12-12 08:52:20,839 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-12-12 08:52:20,839 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-12-12 08:52:20,839 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+FATAL 2020-12-12 08:52:21,150 [1    ] Abp.AbpBootstrapper                      - System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value)
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes()
+   at Abp.Zero.AbpZeroCommonModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value)
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes()
+   at Abp.Zero.AbpZeroCommonModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+DEBUG 2020-12-12 08:58:07,503 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-12 08:58:07,561 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2020-12-12 08:58:07,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 08:58:07,572 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2020-12-12 08:58:07,619 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-12-12 08:58:07,619 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-12-12 08:58:07,619 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+FATAL 2020-12-12 08:58:07,852 [1    ] Abp.AbpBootstrapper                      - System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value)
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes()
+   at Abp.Zero.AbpZeroCommonModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at Abp.Zero.Configuration.AbpZeroEntityTypes.set_Tenant(Type value)
+   at Abp.Zero.AbpZeroCommonModule.FillMissingEntityTypes()
+   at Abp.Zero.AbpZeroCommonModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+DEBUG 2020-12-12 23:16:45,508 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-12 23:16:45,759 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-12 23:16:45,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:45,774 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-12 23:16:46,083 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-12 23:16:46,156 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-12 23:16:46,220 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-12 23:16:46,249 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-12 23:16:46,530 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-12 23:16:46,584 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2020-12-13 09:00:12,713 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-13 09:00:12,931 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-13 09:00:12,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:12,942 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-13 09:00:13,237 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:13,309 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-13 09:00:13,371 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-13 09:00:13,400 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-13 09:00:13,674 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-13 09:00:13,723 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2020-12-13 09:00:54,118 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-13 09:00:54,171 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-13 09:00:54,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,178 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,182 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-13 09:00:54,362 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:00:54,452 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-13 09:00:54,512 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-13 09:00:54,542 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-13 09:00:54,776 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-13 09:00:54,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2020-12-13 09:01:10,978 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-12-13 09:01:10,979 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-13 09:01:10,980 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-13 09:01:10,980 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-12-13 09:01:35,181 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-13 09:01:35,243 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-13 09:01:39,026 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,060 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,085 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,085 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:39,088 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-13 09:01:47,108 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:01:47,176 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-13 09:01:47,228 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-13 09:01:47,257 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-13 09:01:47,498 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-13 09:01:47,541 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-13 09:02:55,993 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM4V0ALI4JD4", Request id "0HM4V0ALI4JD4:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-13 09:26:51,432 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-12-13 09:26:51,434 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-13 09:26:51,435 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-13 09:26:51,435 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-12-13 09:51:35,004 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-13 09:51:35,073 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-13 09:51:37,951 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:37,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:37,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:37,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:37,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:37,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:38,011 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:38,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:38,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:38,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:38,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:38,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:38,015 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-13 09:51:50,330 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-13 09:51:54,575 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-13 09:51:54,625 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-13 09:51:54,654 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-13 09:51:54,879 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-13 09:51:54,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2020-12-14 22:33:08,802 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-14 22:33:08,872 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-14 22:33:21,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,045 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-14 22:33:21,762 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:33:21,837 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-14 22:33:21,895 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-14 22:33:21,923 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-14 22:33:22,160 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-14 22:33:22,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-14 22:33:27,533 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM507KQU15US", Request id "0HM507KQU15US:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-14 22:35:52,656 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-14 22:35:52,730 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-14 22:35:54,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,223 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-14 22:35:54,800 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:35:54,867 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-14 22:35:54,920 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-14 22:35:54,948 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-14 22:35:55,177 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-14 22:35:55,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-14 22:36:00,062 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM507M8HK3DN", Request id "0HM507M8HK3DN:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-14 22:36:23,200 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-14 22:36:23,280 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-14 22:36:24,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:24,855 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-14 22:36:33,353 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:36:33,423 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-14 22:36:33,476 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-14 22:36:33,504 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-14 22:36:33,729 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-14 22:36:33,770 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-14 22:36:38,759 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM507MJSRHRQ", Request id "0HM507MJSRHRQ:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-14 22:43:34,591 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-14 22:43:34,800 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-14 22:43:39,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,296 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,296 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:39,325 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-14 22:43:51,205 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-14 22:43:52,847 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-14 22:43:52,900 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-14 22:43:52,929 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-14 22:43:53,179 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-14 22:43:53,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-14 22:44:10,031 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM507QPQQU5I", Request id "0HM507QPQQU5I:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-14 22:44:27,625 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-12-14 22:44:27,626 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-14 22:44:27,627 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-14 22:44:27,627 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-12-19 19:25:28,967 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-19 19:25:29,223 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-19 19:25:31,563 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:31,571 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-19 19:25:33,800 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:25:33,880 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-19 19:25:33,940 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-19 19:25:33,969 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-19 19:25:34,258 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:25:34,312 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-19 19:25:44,525 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM54236QV2Q9", Request id "0HM54236QV2Q9:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-19 19:26:00,102 [21   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-12-19 19:26:00,104 [21   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:26:00,105 [21   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:26:00,105 [21   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-12-19 19:28:43,838 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-19 19:28:43,913 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-19 19:28:46,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:46,979 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-19 19:28:48,823 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:28:48,894 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-19 19:28:48,948 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-19 19:28:48,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-19 19:28:49,205 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:28:49,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-19 19:28:52,567 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM54250RJL47", Request id "0HM54250RJL47:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-19 19:30:46,850 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-19 19:30:46,961 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-19 19:30:46,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:46,976 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-19 19:30:47,176 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:30:47,248 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-19 19:30:47,302 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-19 19:30:47,338 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-19 19:30:47,566 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:30:47,611 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-19 19:30:50,113 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM54264669A6", Request id "0HM54264669A6:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-19 19:31:49,771 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-19 19:31:49,835 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-19 19:31:49,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:49,847 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-19 19:31:50,044 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:31:50,129 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-19 19:31:50,181 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-19 19:31:50,210 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-19 19:31:50,433 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:31:50,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-19 19:33:32,026 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM5426MVB5JQ", Request id "0HM5426MVB5JQ:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-19 19:33:46,142 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-19 19:33:46,205 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-19 19:33:46,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,217 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-19 19:33:46,431 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:33:46,499 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-19 19:33:46,553 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-19 19:33:46,582 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-19 19:33:46,810 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:33:46,852 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2020-12-19 19:34:52,102 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-19 19:34:52,163 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-19 19:34:52,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,176 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-19 19:34:52,374 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:34:52,449 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-19 19:34:52,513 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-19 19:34:52,542 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-19 19:34:52,781 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:34:52,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-19 19:35:02,516 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM5428FDJ95P", Request id "0HM5428FDJ95P:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-19 19:38:18,353 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-19 19:38:18,422 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-19 19:38:18,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,431 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,431 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,431 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,433 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-19 19:38:18,654 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:18,724 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-19 19:38:18,778 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-19 19:38:18,807 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-19 19:38:19,025 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:38:19,066 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-19 19:38:28,351 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM542ACO7NGH", Request id "0HM542ACO7NGH:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-19 19:38:41,939 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-19 19:38:42,004 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-19 19:38:42,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,011 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,011 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,015 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-19 19:38:42,225 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-19 19:38:42,302 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-19 19:38:42,355 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-19 19:38:42,384 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-19 19:38:42,599 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-19 19:38:42,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-19 19:38:47,870 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM542AIHT3NO", Request id "0HM542AIHT3NO:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-29 20:43:21,394 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-29 20:43:21,705 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-29 20:43:21,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,717 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:21,723 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-29 20:43:22,184 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:43:22,268 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-29 20:43:22,336 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-29 20:43:22,369 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-29 20:43:22,645 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-29 20:43:22,709 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-29 20:43:53,823 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM5BUTIFJ4RR", Request id "0HM5BUTIFJ4RR:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-29 20:44:23,517 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-29 20:44:23,580 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-29 20:44:23,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,591 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-29 20:44:23,787 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:44:23,860 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-29 20:44:23,929 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-29 20:44:23,961 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-29 20:44:24,215 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-29 20:44:24,260 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+ERROR 2020-12-29 20:44:27,001 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HM5BUTSHNDG0", Request id "0HM5BUTSHNDG0:00000002": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null. (Parameter 'stream')
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean leaveOpen)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.RespondWithIndexHtml(HttpResponse response)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+DEBUG 2020-12-29 20:44:34,540 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-12-29 20:44:34,541 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-29 20:44:34,542 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-29 20:44:34,542 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-12-29 20:45:17,389 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-12-29 20:45:17,492 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2020-12-29 20:45:17,501 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,507 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2020-12-29 20:45:17,688 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-12-29 20:45:17,771 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2020-12-29 20:45:17,825 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-12-29 20:45:17,855 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-12-29 20:45:18,084 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-12-29 20:45:18,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-03 20:49:33,178 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-03 20:49:33,452 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-03 20:49:33,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,464 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-03 20:49:33,761 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-03 20:49:33,834 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-03 20:49:33,893 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-03 20:49:33,922 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-03 20:49:34,189 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-03 20:49:34,241 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-08 21:19:06,972 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-08 21:19:07,046 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-08 21:19:07,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,057 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-08 21:19:07,265 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:19:07,347 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-08 21:19:07,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-08 21:19:07,445 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-08 21:19:07,761 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-08 21:19:07,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-08 21:20:58,622 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-08 21:20:58,702 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-08 21:20:58,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,713 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-08 21:20:58,910 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 21:20:58,978 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-08 21:20:59,028 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-08 21:20:59,057 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-08 21:20:59,274 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-08 21:20:59,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-08 22:03:06,138 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-08 22:03:06,212 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-08 22:03:06,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,222 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-08 22:03:06,427 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:03:06,497 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-08 22:03:06,548 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-08 22:03:06,576 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-08 22:03:06,795 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-08 22:03:06,836 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-08 22:09:25,056 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-08 22:09:25,130 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-08 22:09:25,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,141 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-08 22:09:25,347 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:09:25,411 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-08 22:09:25,462 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-08 22:09:25,490 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-08 22:09:25,706 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-08 22:09:25,746 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-08 22:18:45,582 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-08 22:18:45,654 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-08 22:18:45,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,664 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-08 22:18:45,840 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:18:45,907 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-08 22:18:45,958 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-08 22:18:45,987 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-08 22:18:46,200 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-08 22:18:46,241 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-08 22:19:46,758 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-08 22:19:46,826 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-08 22:19:46,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:46,837 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-08 22:19:47,025 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-08 22:19:47,113 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-08 22:19:47,164 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-08 22:19:47,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-08 22:19:47,402 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-08 22:19:47,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-16 10:21:52,597 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-16 10:21:52,895 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-16 10:21:52,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:52,908 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-16 10:21:53,235 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-16 10:21:53,307 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-16 10:21:53,361 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-16 10:21:53,390 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-16 10:21:53,657 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-16 10:21:53,706 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes

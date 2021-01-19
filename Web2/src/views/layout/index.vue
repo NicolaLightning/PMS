@@ -1,80 +1,49 @@
 <template>
-  <el-container  class="mainContainer">
-    <el-header>
-      <header-bar> </header-bar>
-    </el-header>
-    <el-container>
-      <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
-        <el-menu
-          :default-openeds="$router.path"
-          class="el-menu"
-          router
-          @open="handleOpen"
-        >
-          <el-menu-item index="/dashboard">
-            <template slot="title">
-              <span slot="title">首页</span>
-            </template>
-          </el-menu-item>
-          <el-menu-item index="/orderManage">
-            <template slot="title">
-              <span slot="title">订单管理</span>
-            </template>
-          </el-menu-item>
-        </el-menu>
-      </el-aside>
-      <el-main>
-        <router-view />
-      </el-main>
-    </el-container>
-  </el-container>
+  <div class="app-wrapper" :class="classObj">
+    <navbar></navbar>
+    <div class="main-container">
+      <sidebar class="sidebar-container"></sidebar>
+      <app-main></app-main>
+    </div>
+  </div>
 </template>
 
 <script>
-import HeaderBar from './components/headerbar'
-
-const Item = {
-  date: '2016-05-02',
-  name: '王小虎',
-  address: '上海市普陀区金沙江路 1518 弄'
-}
+import { Navbar, Sidebar, AppMain } from './components'
+import ResizeMixin from './mixin/ResizeHandler'
 
 export default {
-  name: 'Layout',
+  name: 'layout',
   components: {
-    HeaderBar
+    Navbar,
+    Sidebar,
+    AppMain
   },
-
-  data () {
-    return {
-      item: Item,
-      tableData: []
+  mixins: [ResizeMixin],
+  computed: {
+    sidebar () {
+      return this.$store.state.app.sidebar
+    },
+    device () {
+      return this.$store.state.app.device
+    },
+    classObj () {
+      return {
+        hideSidebar: !this.sidebar.opened,
+        withoutAnimation: this.sidebar.withoutAnimation,
+        mobile: this.device === 'mobile'
+      }
     }
-  },
-
-  computed: {},
-
-  methods: {
-    handleOpen () {}
   }
 }
 </script>
 
-<style lang="scss" scoped>
-.mainContainer {
-  height: 100%;
-}
-.el-header {
-  background-color: #b3c0d1;
-  color: #333;
-  line-height: 60px;
-}
-
-.el-menu {
-  height: 100%;
-}
-
-.el-aside {
-  color: #333;
-}
+<style rel="stylesheet/scss" lang="scss" scoped>
+  @import "src/styles/mixin.scss";
+  .app-wrapper {
+    @include clearfix;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
 </style>

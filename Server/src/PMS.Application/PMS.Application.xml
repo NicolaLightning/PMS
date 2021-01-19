@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PMS.Application</name>
+    </assembly>
+    <members>
+        <member name="T:PMS.Application.GetInfoOutput">
+            <summary>
+            获取用户信息输出类
+            </summary>
+        </member>
+        <member name="P:PMS.Application.GetInfoOutput.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:PMS.Application.GetInfoOutput.Roles">
+            <summary>
+            用户权限
+            </summary>
+        </member>
+        <member name="T:PMS.Application.ILoginManageAppService">
+            <summary>
+            登录管理应用
+            </summary>
+        </member>
+        <member name="M:PMS.Application.ILoginManageAppService.GetInfo">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PMS.Application.LoginManageAppService">
+            <summary>
+            登录管理应用
+            </summary>
+        </member>
+        <member name="M:PMS.Application.LoginManageAppService.GetInfo">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PMS.Application.PMSApplicationModule.PostInitialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Application.PMSApplicationModule.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

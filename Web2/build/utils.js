@@ -65,7 +65,7 @@ exports.cssLoaders = function (options) {
         loader: 'sass-resources-loader',
         options: {
             //你自己的scss全局文件的路径
-          resources: path.resolve(__dirname, '../src/style/common.scss')
+          resources: path.resolve(__dirname, '../src/styles/common.scss')
         }
       }
     ),

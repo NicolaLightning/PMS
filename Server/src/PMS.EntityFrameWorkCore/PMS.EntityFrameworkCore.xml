@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PMS.EntityFrameworkCore</name>
+    </assembly>
+    <members>
+        <member name="P:PMS.EntityFrameworkCore.PMSEntityFrameworkModule.SkipDbContextRegistration">
+            * Used it tests to skip dbcontext registration, in order to use in-memory database of EF Core */
+        </member>
+        <member name="T:PMS.EntityFrameworkCore.PMSRepositoryBase`1">
+            <summary>
+            Base class for custom repositories of the application.
+            This is a shortcut of <see cref="T:PMS.EntityFrameworkCore.PMSRepositoryBase`2"/> for <see cref="T:System.Int32"/> primary key.
+            </summary>
+            <typeparam name="TEntity">Entity type</typeparam>
+        </member>
+        <member name="F:PMS.EntityFrameworkCore.PMSRepositoryBase`1.connectstr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PMS.EntityFrameworkCore.PMSRepositoryBase`2">
+            <summary>
+            Base class for custom repositories of the application.
+            </summary>
+            <typeparam name="TEntity">Entity type</typeparam>
+            <typeparam name="TPrimaryKey">Primary key type of the entity</typeparam>
+        </member>
+    </members>
+</doc>
