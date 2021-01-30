@@ -5,16 +5,23 @@ import Vuex from 'vuex'
 import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
+import store from './store'
 import 'element-ui/lib/theme-chalk/index.css'
-
-Vue.use(ElementUI)
-Vue.use(Vuex)
+import '@/permission' // permission control
 
 Vue.config.productionTip = false
+Vue.use(ElementUI)
+Vue.use(Vuex)
+if (process.env.NODE_ENV === 'production') {
+  const { mockXHR } = require('../mock')
+  mockXHR()
+}
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  render: c => c(App)
+  store,
+  components: { App },
+  template: '<App/>'
 })
