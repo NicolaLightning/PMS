@@ -818,3 +818,49 @@ DEBUG 2021-01-16 10:21:53,361 [1    ] Abp.Localization.LocalizationManager     -
 DEBUG 2021-01-16 10:21:53,390 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
 DEBUG 2021-01-16 10:21:53,657 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
 DEBUG 2021-01-16 10:21:53,706 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-30 18:33:02,664 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-30 18:33:02,911 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-30 18:33:02,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:02,921 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-30 18:33:03,271 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 18:33:03,367 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-30 18:33:03,419 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-30 18:33:03,448 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-30 18:33:03,711 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-30 18:33:03,775 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-30 19:21:32,876 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-01-30 19:21:32,930 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2021-01-30 19:21:32,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Web.Host.PMSWebHostModule, PMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Application.PMSApplicationModule, PMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.Core.PMSCoreModule, PMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.CommonType.CPSCommonTypeModule, PMS.CommonType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PMS.EntityFrameworkCore.PMSEntityFrameworkModule, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:32,941 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2021-01-30 19:21:33,132 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PMS.EntityFrameworkCore.PMSDbContext, PMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-01-30 19:21:33,209 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2021-01-30 19:21:33,278 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-01-30 19:21:33,308 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-01-30 19:21:33,530 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-30 19:21:33,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+DEBUG 2021-01-30 22:58:18,636 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2021-01-30 22:58:18,645 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-30 22:58:18,646 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-01-30 22:58:18,646 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.

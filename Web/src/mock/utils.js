@@ -42,7 +42,7 @@ function deepClone (source) {
   return targetObj
 }
 
-module.exports = {
+export {
   param2Obj,
   deepClone
 }

@@ -1,4 +1,3 @@
-
 const tokens = {
   admin: {
     token: 'admin-token'
@@ -31,7 +30,7 @@ module.exports = [
     response: config => {
       const { username } = config.body
       const token = tokens[username]
-
+      console.log('开始执行模拟数据')
       // mock error
       if (!token) {
         return {

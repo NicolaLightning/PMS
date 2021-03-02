@@ -27,7 +27,7 @@ const user = {
   actions: {
     // 登录
     Login ({ commit }, userInfo) {
-      console.log(userInfo)
+      console.log('输出了用户信息')
       const username = userInfo.username.trim()
       return new Promise((resolve, reject) => {
         login(username, userInfo.password).then(response => {
@@ -40,6 +40,9 @@ const user = {
         }).catch(error => {
           reject(error)
         })
+      }).catch(function (reason) {
+        // 有选择性的在此处抛出错误或不抛出
+        console.log('catch:', reason)
       })
     },
 

@@ -48,7 +48,7 @@ function mockXHR () {
   }
 }
 
-module.exports = {
+export {
   mocks,
   mockXHR
 }

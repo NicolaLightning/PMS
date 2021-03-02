@@ -17,10 +17,11 @@ export function login (username, password) {
 //   )
 // }
 
-export function getInfo () {
+export function getInfo (token) {
   return request({
     url: '/LoginManage/getinfo',
-    method: 'get'
+    method: 'get',
+    params: { token }
   })
 }
 

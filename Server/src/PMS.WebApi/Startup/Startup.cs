@@ -114,7 +114,7 @@ namespace PMS.Web.Host
                 // specifying the Swagger JSON endpoint.
                 options.SwaggerEndpoint($"/swagger/{_apiVersion}/swagger.json", $"PMS API {_apiVersion}");
                 options.IndexStream = () => Assembly.GetExecutingAssembly()
-                    .GetManifestResourceStream("PMS.Web.Host.wwwroot.swagger.ui.index.html");
+                    .GetManifestResourceStream("PMS.WebApi.wwwroot.swagger.ui.index.html");
                 options.DisplayRequestDuration(); // Controls the display of the request duration (in milliseconds) for "Try it out" requests.  
             }); // URL: /swagger
         }

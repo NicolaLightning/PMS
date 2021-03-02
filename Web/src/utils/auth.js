@@ -1,8 +1,9 @@
 import Cookies from 'js-cookie'
 
-const TokenKey = 'loginToken'
+const TokenKey = 'Admin-Token'
 
 export function getToken () {
+  console.log('获取权限')
   return Cookies.get(TokenKey)
 }
 

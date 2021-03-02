@@ -60,24 +60,24 @@ function getMenu (name, menus) {
 }
 
 // 对菜单进行排序
-// function sortRouters (accessedRouters) {
-//   for (let i = 0; i < accessedRouters.length; i++) {
-//     let router = accessedRouters[i]
-//     if (router.children && router.children.length > 0) {
-//       router.children.sort(compare('sort'))
-//     }
-//   }
-//   accessedRouters.sort(compare('sort'))
-// }
+function sortRouters (accessedRouters) {
+  for (let i = 0; i < accessedRouters.length; i++) {
+    let router = accessedRouters[i]
+    if (router.children && router.children.length > 0) {
+      router.children.sort(compare('sort'))
+    }
+  }
+  accessedRouters.sort(compare('sort'))
+}
 
 // 降序比较函数
-// function compare (p) {
-//   return function (m, n) {
-//     let a = m[p]
-//     let b = n[p]
-//     return b - a
-//   }
-// }
+function compare (p) {
+  return function (m, n) {
+    let a = m[p]
+    let b = n[p]
+    return b - a
+  }
+}
 
 const permission = {
   state: {
@@ -91,44 +91,31 @@ const permission = {
     }
   },
   actions: {
-    // GenerateRoutes ({ commit }, data) {
-    //   return new Promise(resolve => {
-    //     const { menus } = data
-    //     console.log('生成可访问的路由表')
-    //     const accessedRouters = asyncRouterMap.filter(v => {
-    //       // admin帐号直接返回所有菜单
-    //       if (hasPermission(menus, v)) {
-    //         if (v.children && v.children.length > 0) {
-    //           v.children = v.children.filter(child => {
-    //             if (hasPermission(menus, child)) {
-    //               return child
-    //             }
-    //             return false
-    //           })
-    //           return v
-    //         } else {
-    //           return v
-    //         }
-    //       }
-    //       return false
-    //     })
-    //     // 对菜单进行排序
-    //     sortRouters(accessedRouters)
-    //     commit('SET_ROUTERS', accessedRouters)
-    //     resolve()
-    //   })
-    // }
-    GenerateRoutes ({ commit }, roles) {
+    GenerateRoutes ({ commit }, data) {
       return new Promise(resolve => {
-        let accessedRoutes
-        console.log('你好吗')
-        if (roles.includes('admin')) {
-          accessedRoutes = asyncRouterMap || []
-        } else {
-          accessedRoutes = filterAsyncRoutes(asyncRouterMap, roles)
-        }
-        commit('SET_ROUTES', accessedRoutes)
-        resolve(accessedRoutes)
+        const { menus } = data
+        console.log('生成可访问的路由表')
+        const accessedRouters = asyncRouterMap.filter(v => {
+          // admin帐号直接返回所有菜单
+          if (hasPermission(menus, v)) {
+            if (v.children && v.children.length > 0) {
+              v.children = v.children.filter(child => {
+                if (hasPermission(menus, child)) {
+                  return child
+                }
+                return false
+              })
+              return v
+            } else {
+              return v
+            }
+          }
+          return false
+        })
+        // 对菜单进行排序
+        sortRouters(accessedRouters)
+        commit('SET_ROUTERS', accessedRouters)
+        resolve()
       })
     }
   }

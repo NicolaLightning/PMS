@@ -12,8 +12,8 @@ import '@/permission' // permission control
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 Vue.use(Vuex)
-if (process.env.NODE_ENV === 'production') {
-  const { mockXHR } = require('../mock')
+if (process.env.NODE_ENV === 'development') {
+  const { mockXHR } = require('./mock')
   mockXHR()
 }
 
