@@ -9,8 +9,16 @@ using PMS.Configuration;
 
 namespace PMS.EntityFrameworkCore
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class PMSDbContextFactory: IDesignTimeDbContextFactory<PMSDbContext>
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public PMSDbContext CreateDbContext(string[] args)
         {
             var builder = new DbContextOptionsBuilder<PMSDbContext>();

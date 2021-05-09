@@ -4,5 +4,20 @@
         <name>PMS.CommonType</name>
     </assembly>
     <members>
+        <member name="T:PMS.CommonType.CPSCommonTypeModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.CommonType.CPSCommonTypeModule.PreInitialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.CommonType.CPSCommonTypeModule.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
     </members>
 </doc>

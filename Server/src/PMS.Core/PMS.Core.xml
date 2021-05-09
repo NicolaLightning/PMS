@@ -4,5 +4,128 @@
         <name>PMS.Core</name>
     </assembly>
     <members>
+        <member name="T:PMS.Core.Client">
+            <summary>
+            客户
+            </summary>
+        </member>
+        <member name="F:PMS.Core.Client.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.Core.Client.adress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.Core.Client.tel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.Core.Client.status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Core.Client.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Core.Client.Adress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Core.Client.Tel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Core.Client.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PMS.Core.ClientFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Core.ClientFactory.Create(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="adress"></param>
+            <param name="tel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PMS.Core.IClient">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Core.IClient.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Core.IClient.Adress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Core.IClient.Tel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PMS.Core.IClientFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Core.IClientFactory.Create(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PMS.Core.IClientRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Core.IClientRepository.Insert(PMS.Core.IClient)">
+            <summary>
+            
+            </summary>
+            <param name="client"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PMS.Core.IClientRepository.Update(PMS.Core.IClient)">
+            <summary>
+            
+            </summary>
+            <param name="client"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PMS.Core.IClientRepository.Delete(PMS.Core.IClient)">
+            <summary>
+            
+            </summary>
+            <param name="client"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PMS.Core.IClientRepository.Query(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

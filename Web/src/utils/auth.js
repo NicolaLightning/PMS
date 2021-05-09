@@ -4,6 +4,8 @@ const TokenKey = 'Admin-Token'
 
 export function getToken () {
   console.log('获取权限')
+  var token = Cookies.get(TokenKey)
+  console.log(token)
   return Cookies.get(TokenKey)
 }
 

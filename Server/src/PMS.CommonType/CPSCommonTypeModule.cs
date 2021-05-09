@@ -6,13 +6,23 @@ namespace PMS.CommonType
     using Abp.Reflection.Extensions;
     using Abp.Modules;
     using Abp.AutoMapper;
+
+    /// <summary>
+    /// 
+    /// </summary>
     public class CPSCommonTypeModule:AbpModule
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public override void PreInitialize()
         {
             base.PreInitialize();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public override void Initialize()
         {
             var thisAssembly = typeof(CPSCommonTypeModule).GetAssembly();

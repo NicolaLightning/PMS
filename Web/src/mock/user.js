@@ -38,7 +38,7 @@ module.exports = [
           message: 'Account and password are incorrect.'
         }
       }
-
+      console.log(token)
       return {
         code: 20000,
         data: token

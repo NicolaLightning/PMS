@@ -11,6 +11,10 @@ namespace PMS.Configuration
 {
     public class WebContentDirectoryFinder
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static string CalculateContentRootFolder()
         {
             var coreAssemblyDirectoryPath = Path.GetDirectoryName(typeof(PMSUtilityModule).GetAssembly().Location);
@@ -36,7 +40,7 @@ namespace PMS.Configuration
                 return webMvcFolder;
             }
 
-            var webHostFolder = Path.Combine(directoryInfo.FullName, "src", "PMS.Web.Host");
+            var webHostFolder = Path.Combine(directoryInfo.FullName, "src", "PMS.WebApi");
             if (Directory.Exists(webHostFolder))
             {
                 return webHostFolder;

@@ -4,6 +4,93 @@
         <name>PMS.Application</name>
     </assembly>
     <members>
+        <member name="T:PMS.Application.ClientAppService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.Application.ClientAppService._clientRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Application.ClientAppService.#ctor(PMS.Core.IClientRepository,PMS.Core.IClientFactory)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="clientRepository"></param>
+        </member>
+        <member name="M:PMS.Application.ClientAppService.QueryClientInfo(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PMS.Application.ClientAppService.AddClient(PMS.Application.AddClientInput)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PMS.Application.AddClientInput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Application.AddClientInput.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Application.AddClientInput.Adress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Application.AddClientInput.Tel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PMS.Application.QueryClientOutput">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Application.QueryClientOutput.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Application.QueryClientOutput.Adress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Application.QueryClientOutput.Tel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PMS.Application.QueryClientOutput.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PMS.Application.IClientAppService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Application.IClientAppService.QueryClientInfo(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="T:PMS.Application.GetInfoOutput">
             <summary>
             获取用户信息输出类

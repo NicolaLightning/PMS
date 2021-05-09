@@ -4,8 +4,150 @@
         <name>PMS.EntityFrameworkCore</name>
     </assembly>
     <members>
+        <member name="T:PMS.EntityFrameworkCore.PMSDbContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.PMSDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{PMS.EntityFrameworkCore.PMSDbContext})">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:PMS.EntityFrameworkCore.PMSDbContext.Client">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.PMSDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="T:PMS.EntityFrameworkCore.PMSDbContextConfigurer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.EntityFrameworkCore.PMSDbContextConfigurer.CurrentConnectionString">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.EntityFrameworkCore.PMSDbContextConfigurer.SkipDbContextRegistartion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.PMSDbContextConfigurer.Configure(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder{PMS.EntityFrameworkCore.PMSDbContext},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <param name="connectionString"></param>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.PMSDbContextConfigurer.Configure(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder{PMS.EntityFrameworkCore.PMSDbContext},System.Data.Common.DbConnection)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <param name="connection"></param>
+        </member>
+        <member name="T:PMS.EntityFrameworkCore.PMSDbContextFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.PMSDbContextFactory.CreateDbContext(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
         <member name="P:PMS.EntityFrameworkCore.PMSEntityFrameworkModule.SkipDbContextRegistration">
             * Used it tests to skip dbcontext registration, in order to use in-memory database of EF Core */
+        </member>
+        <member name="T:PMS.EntityFrameworkCore.ClientConst">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.EntityFrameworkCore.ClientConst.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.EntityFrameworkCore.ClientConst.Adress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.EntityFrameworkCore.ClientConst.Tel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.EntityFrameworkCore.ClientConst.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:PMS.EntityFrameworkCore.ClientMap">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.ClientMap.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{PMS.Core.Client})">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="T:PMS.EntityFrameworkCore.ClientRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PMS.EntityFrameworkCore.ClientRepository.generateArQueryable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.ClientRepository.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.ClientRepository.Insert(PMS.Core.IClient)">
+            <summary>
+            插入一个对象
+            </summary>
+            <param name="client"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.ClientRepository.Update(PMS.Core.IClient)">
+            <summary>
+            更新一个对象
+            </summary>
+            <param name="client"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.ClientRepository.Delete(PMS.Core.IClient)">
+            <summary>
+            
+            </summary>
+            <param name="client"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PMS.EntityFrameworkCore.ClientRepository.Query(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
         </member>
         <member name="T:PMS.EntityFrameworkCore.PMSRepositoryBase`1">
             <summary>

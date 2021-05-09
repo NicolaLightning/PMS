@@ -23,6 +23,9 @@ using Castle.Facilities.Logging;
 
 namespace PMS.Web.Host
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class Startup
     {
         private const string _defaultCorsPolicyName = "localhost";
@@ -31,12 +34,22 @@ namespace PMS.Web.Host
 
         private readonly IConfigurationRoot _appConfiguration;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="env"></param>
         public Startup(IWebHostEnvironment env)
         {
             _appConfiguration = env.GetAppConfiguration();
         }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             //MVC
@@ -83,6 +96,12 @@ namespace PMS.Web.Host
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="loggerFactory"></param>
+        /// <param name="env"></param>
         public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory, IWebHostEnvironment env)
         {
             app.UseAbp(options => { options.UseAbpRequestLocalization = false; }); // Initializes ABP framework.

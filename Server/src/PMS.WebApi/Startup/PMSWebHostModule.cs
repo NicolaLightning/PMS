@@ -17,6 +17,9 @@ using PMS.Application;
 
 namespace PMS.Web.Host
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [DependsOn(
   typeof(PMSApplicationModule),
   typeof(PMSEntityFrameworkModule),
@@ -27,12 +30,19 @@ namespace PMS.Web.Host
         private readonly IWebHostEnvironment _env;
         private readonly IConfigurationRoot _appConfiguration;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="env"></param>
         public PMSWebHostModule(IWebHostEnvironment env)
         {
             _env = env;
             _appConfiguration = env.GetAppConfiguration();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(typeof(PMSWebHostModule).GetAssembly());

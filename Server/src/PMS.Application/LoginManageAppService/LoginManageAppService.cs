@@ -16,7 +16,7 @@ namespace PMS.Application
         /// 
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
+        [HttpPost]
         public GetInfoOutput GetInfo()
         {
             GetInfoOutput output = new GetInfoOutput();

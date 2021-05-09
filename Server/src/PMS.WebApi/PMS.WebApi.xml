@@ -16,6 +16,16 @@
             <param name="env"></param>
             <returns></returns>
         </member>
+        <member name="T:PMS.Web.Host.Controller.PMSControllerBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Web.Host.Controller.PMSControllerBase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:PMS.Web.Host.AuthTokenOperationFilter">
             <summary>
             Swagger Token 参数拦截器
@@ -28,10 +38,70 @@
             <param name="operation"></param>
             <param name="context"></param>
         </member>
+        <member name="T:PMS.Web.Host.PMSWebHostModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Web.Host.PMSWebHostModule.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="M:PMS.Web.Host.PMSWebHostModule.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:PMS.Web.Host.PMSWebHostModule.PreInitialize">
             <summary>
             
             </summary>
+        </member>
+        <member name="T:PMS.Web.Host.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Web.Host.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:PMS.Web.Host.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PMS.Web.Host.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PMS.Web.Host.Startup.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="M:PMS.Web.Host.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PMS.Web.Host.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="loggerFactory"></param>
+            <param name="env"></param>
         </member>
     </members>
 </doc>
